@@ -20,13 +20,13 @@ GameObject:
   m_Component:
   - component: {fileID: 4823608198676780}
   - component: {fileID: 114973417858817924}
-  - component: {fileID: 114017751489808282}
+  - component: {fileID: 114771324845228750}
   m_Layer: 0
   m_Name: Maze
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4823608198676780
 Transform:
@@ -41,7 +41,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114017751489808282
+--- !u!114 &114771324845228750
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -55,7 +55,6 @@ MonoBehaviour:
   marker: {fileID: 1094725033463016, guid: a8ee0aaa9dcbb604b8d26d0356aa5fe1, type: 2}
   m_Processing: {fileID: 2100000, guid: d0a975e3c77976d408652aaaf633d6f9, type: 2}
   m_Seen: {fileID: 2100000, guid: 132a59be600851d4ab3110a01237960a, type: 2}
-  m_Collision: {fileID: 2100000, guid: bd946bea785f0a74e899ebeec7e9c864, type: 2}
   m_Visited: {fileID: 2100000, guid: c16d73bcc36622c40b5af513b4149ffe, type: 2}
   m_Path: {fileID: 2100000, guid: 59e1ca32f11c6504e811744312525abd, type: 2}
   useDelay: 1
@@ -72,8 +71,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   size:
-    x: 25
-    z: 25
+    x: 15
+    z: 15
   perfectMaze: 0
   wallMaterial: {fileID: 2100000, guid: f28ad25da8a10aa44b29eaefad7235e5, type: 2}
   floorMaterial: {fileID: 2100000, guid: 85598ecd9822eaa4dbb69c0d7b60ac4d, type: 2}
